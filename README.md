@@ -1,4 +1,4 @@
-# (Communicate Data Findings)
+# Communicate Data Findings
 ## by (Chukwunonso Emmanuel Chukwumaeze)
 <br>
 
