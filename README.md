@@ -51,4 +51,4 @@ I made sure to use positional and non-positional encodings where necessary to hi
 ## How to Navigate:
 > * The notebook [Part 1 exploration template](https://github.com/DrDev-Py/Udacity-Pima-Indians-Diabetes-Dataset/blob/main/Part_I_exploration_template.ipynb) contains the Exploratory Data Analysis
 > * The notebook __"Part II slide deck template"__ contains a slide presentation of my findings, the __Explanatory Data Analysis__ 
-> * You could view the slide presentation, you have to have anaconda installed, with the Anaconda Prompt, go into the folder into which downloaded the __"Part_II_slide_deck_template.ipynb"__ notebook and run the following command ``` !jupyter nbconvert <Part_II_Filename>.ipynb --to slides --post serve ```
+> * You could view the slide presentation, you have to have anaconda installed, with the Anaconda Prompt, go into the folder into which downloaded the __"Part_II_slide_deck_template.ipynb"__ notebook and run the following command ``` !jupyter nbconvert Part_II_slide_deck_template.ipynb --to slides --post serve ```
