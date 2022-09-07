@@ -46,8 +46,8 @@ I would later go on to investigate the combined effects of Age and BMI on diabet
 
 I made sure to use positional and non-positional encodings where necessary to highlight the interactions between different variables.
 
-
 <br>
+
 ## How to Navigate:
 > * The notebook [Part 1 exploration template](https://github.com/DrDev-Py/Udacity-Pima-Indians-Diabetes-Dataset/blob/main/Part_I_exploration_template.ipynb) contains the Exploratory Data Analysis
 > * The notebook __"Part II slide deck template"__ contains a slide presentation of my findings, the __Explanatory Data Analysis__ 
