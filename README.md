@@ -9,8 +9,8 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
 Several constraints were placed on the selection of these instances from a larger database. __In particular:
-> * All Patients here are females
-> * All Patients are at least 21 years old of Pima Indian heritage.__
+* All Patients here are females
+* All Patients are at least 21 years old of Pima Indian heritage.__
 
 I chose to work on all variables:
 > The dataset contains about 768 rows with 9 columns. For my analysis I would be working on all rows and columns which includes:
@@ -49,6 +49,13 @@ I made sure to use positional and non-positional encodings where necessary to hi
 <br>
 
 ## How to Navigate:
-> * The notebook [Part 1 exploration template](https://github.com/DrDev-Py/Udacity-Pima-Indians-Diabetes-Dataset/blob/main/Part_I_exploration_template.ipynb) contains the Exploratory Data Analysis
-> * The notebook __"Part II slide deck template"__ contains a slide presentation of my findings, the __Explanatory Data Analysis__ 
-> * You could view the slide presentation, you have to have anaconda installed, with the Anaconda Prompt, go into the folder into which downloaded the __"Part_II_slide_deck_template.ipynb"__ notebook and run the following command ``` !jupyter nbconvert Part_II_slide_deck_template.ipynb --to slides --post serve ```
+* The notebook [Part 1 exploration template](https://github.com/DrDev-Py/Udacity-Pima-Indians-Diabetes-Dataset/blob/main/Part_I_exploration_template.ipynb) contains the Exploratory Data Analysis
+* The notebook __"Part II slide deck template"__ contains a slide presentation of my findings, the __Explanatory Data Analysis__ 
+* You could view the slide presentation, you have to have anaconda installed, with the Anaconda Prompt, go into the folder into which downloaded the __"Part_II_slide_deck_template.ipynb"__ notebook and run the following command ``` !jupyter nbconvert Part_II_slide_deck_template.ipynb --to slides --post serve ```
+
+## Requirements
+The required packages have been added via two files:
+  * __environment.yaml__ - this file is for the **conda environment** if you want to add just run this code in your anaconda prompt when you've entered into the root folder
+  ```conda env create -f environment.yaml```
+  * __requirements.txt__ - this file is for using __just Python__ instead of Anaconda, to add the environments, run this code in the root folder in your python environment
+  ```pip3 install -r requirements.txt```
